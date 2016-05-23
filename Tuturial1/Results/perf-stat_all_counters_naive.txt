@@ -1,0 +1,24 @@
+ Performance counter stats for './naive':
+
+         547997864      cpu-cycles                [20.82%]
+         931779569      instructions              #    1.70  insns per cycle         [25.76%]
+           8320994      cache-references                                             [25.66%]
+             27905      cache-misses              #    0.335 % of all cache refs     [25.66%]
+         133776058      branch-instructions                                          [25.64%]
+            277424      branch-misses             #    0.21% of all branches         [26.10%]
+                 0      bus-cycles                                                  
+         240142105      L1-dcache-loads                                              [22.71%]
+          54162900      L1-dcache-load-misses     #   22.55% of all L1-dcache hits   [22.59%]
+           9683369      L1-dcache-stores                                             [22.46%]
+            290076      L1-dcache-store-misses                                       [22.33%]
+           7231132      LLC-loads                                                    [22.21%]
+              3056      LLC-load-misses           #    0.04% of all LL-cache hits    [22.09%]
+            259152      LLC-stores                                                   [10.99%]
+             27378      LLC-store-misses                                             [10.92%]
+              5896      dTLB-load-misses                                             [16.30%]
+               722      dTLB-store-misses                                            [21.61%]
+               633      iTLB-load-misses                                             [21.49%]
+         131571446      branch-loads                                                 [21.38%]
+           6534783      branch-load-misses                                           [21.28%]
+
+       0.189498719 seconds time elapsed

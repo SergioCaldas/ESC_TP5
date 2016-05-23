@@ -1,0 +1,24 @@
+ Performance counter stats for './interchange':
+
+         385408603      cpu-cycles                [21.24%]
+         873670026      instructions              #    2.27  insns per cycle         [26.57%]
+            379814      cache-references                                             [27.11%]
+             18545      cache-misses              #    4.883 % of all cache refs     [27.65%]
+         126115011      branch-instructions                                          [28.18%]
+            256916      branch-misses             #    0.20% of all branches         [28.61%]
+                 0      bus-cycles                                                  
+         243739176      L1-dcache-loads                                              [23.11%]
+           7343843      L1-dcache-load-misses     #    3.01% of all L1-dcache hits   [22.95%]
+         125326167      L1-dcache-stores                                             [22.78%]
+             98819      L1-dcache-store-misses                                       [22.62%]
+            274505      LLC-loads                                                    [22.47%]
+              4625      LLC-load-misses           #    1.68% of all LL-cache hits    [22.31%]
+            203242      LLC-stores                                                   [10.50%]
+             14222      LLC-store-misses                                             [ 9.80%]
+              9885      dTLB-load-misses                                             [14.68%]
+               445      dTLB-store-misses                                            [19.56%]
+                 0      iTLB-load-misses                                             [19.52%]
+         123282031      branch-loads                                                 [21.46%]
+           5270872      branch-load-misses                                           [21.30%]
+
+       0.144975696 seconds time elapsed

@@ -1,0 +1,13 @@
+[kernel.kallsyms] with build id 09b53ce5dfe09c7b1ad9473e1356d7d922512e27 not found, continui
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# dso: naive
+# Samples: 1K of event 'cpu-clock'
+# Event count (approx.): 1494
+#
+# Overhead       Samples  Command  Symbol                 
+# ........  ............  .......  .......................
+#
+    95.78%          1431  naive    [.] multiply_matrices  
+     0.74%            11  naive    [.] initialize_matrices
+     0.07%             1  naive    [.] rand@plt 

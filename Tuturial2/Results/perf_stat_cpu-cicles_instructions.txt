@@ -1,0 +1,6 @@
+ Performance counter stats for './naive':
+
+         526165227      cpu-cycles               
+         908023916      instructions              #    1.73  insns per cycle        
+
+       0.188633899 seconds time elapsed

@@ -1,0 +1,59 @@
+llsyms] with build id 09b53ce5dfe09c7b1ad9473e1356d7d922512e27 not found, continui
+# ========
+# captured on: Tue May 24 00:12:26 2016
+# hostname : compute-431-9.local
+# os release : 2.6.32-279.14.1.el6.x86_64
+# perf version : 4.0.0
+# arch : x86_64
+# nrcpus online : 24
+# nrcpus avail : 24
+# cpudesc : Intel(R) Xeon(R) CPU E5649 @ 2.53GHz
+# cpuid : GenuineIntel,6,44,2
+# total memory : 49551752 kB
+# cmdline : /share/jade/SOFT/perf/perf record -e cpu-clock,faults ./naive 
+# event : name = cpu-clock, type = 1, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr =
+# event : name = faults, type = 1, config = 0x2, config1 = 0x0, config2 = 0x0, excl_usr = 0,
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# pmu mappings: cpu = 4, tracepoint = 2, software = 1
+# ========
+#
+# Samples: 738  of event 'cpu-clock'
+# Event count (approx.): 738
+#
+# Overhead  Command  Shared Object      Symbol                 
+# ........  .......  .................  .......................
+#
+    95.66%  naive    naive              [.] multiply_matrices  
+     1.49%  naive    naive              [.] initialize_matrices
+     0.68%  naive    libc-2.12.so       [.] __initstate_r      
+     0.27%  naive    [kernel.kallsyms]  [k] 0xffffffff81044428 
+     0.27%  naive    libc-2.12.so       [.] 0x00000000000365f2 
+     0.14%  naive    [kernel.kallsyms]  [k] 0xffffffff810496ca 
+     0.14%  naive    [kernel.kallsyms]  [k] 0xffffffff8110e797 
+     0.14%  naive    [kernel.kallsyms]  [k] 0xffffffff8112729d 
+     0.14%  naive    [kernel.kallsyms]  [k] 0xffffffff8112b857 
+     0.14%  naive    [kernel.kallsyms]  [k] 0xffffffff81149597 
+     0.14%  naive    [kernel.kallsyms]  [k] 0xffffffff81170433 
+     0.14%  naive    [kernel.kallsyms]  [k] 0xffffffff8127d387 
+     0.14%  naive    ld-2.12.so         [.] _dl_lookup_symbol_x
+     0.14%  naive    libc-2.12.so       [.] _L_lock_111        
+     0.14%  naive    libc-2.12.so       [.] _L_unlock_119      
+     0.14%  naive    libc-2.12.so       [.] mrand48_r          
+     0.14%  naive    naive              [.] rand@plt           
+
+
+# Samples: 17  of event 'faults'
+# Event count (approx.): 1245
+#
+# Overhead  Command  Shared Object      Symbol                 
+# ........  .......  .................  .......................
+#
+    65.62%  naive    naive              [.] initialize_matrices
+    29.48%  naive    ld-2.12.so         [.] do_lookup_x        
+     3.13%  naive    ld-2.12.so         [.] dl_main            
+     1.12%  naive    ld-2.12.so         [.] _dl_start          
+     0.24%  naive    ld-2.12.so         [.] _start             
+     0.16%  naive    [kernel.kallsyms]  [k] 0xffffffff8127ed2f 
+     0.16%  naive    libc-2.12.so       [.] __memset_x86_64    
+     0.08%  naive    [kernel.kallsyms]  [k] 0xffffffff8127d612 

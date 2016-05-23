@@ -1,0 +1,42 @@
+[kernel.kallsyms] with build id 09b53ce5dfe09c7b1ad9473e1356d7d922512e27 not found, continui
+# ========
+# captured on: Tue May 24 00:12:26 2016
+# hostname : compute-431-9.local
+# os release : 2.6.32-279.14.1.el6.x86_64
+# perf version : 4.0.0
+# arch : x86_64
+# nrcpus online : 24
+# nrcpus avail : 24
+# cpudesc : Intel(R) Xeon(R) CPU E5649 @ 2.53GHz
+# cpuid : GenuineIntel,6,44,2
+# total memory : 49551752 kB
+# cmdline : /share/jade/SOFT/perf/perf record -e cpu-clock,faults ./naive 
+# event : name = cpu-clock, type = 1, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr =
+# event : name = faults, type = 1, config = 0x2, config1 = 0x0, config2 = 0x0, excl_usr = 0,
+# HEADER_CPU_TOPOLOGY info available, use -I to display
+# HEADER_NUMA_TOPOLOGY info available, use -I to display
+# pmu mappings: cpu = 4, tracepoint = 2, software = 1
+# ========
+#
+# Samples: 738  of event 'cpu-clock'
+# Event count (approx.): 738
+#
+# Overhead  Command  Shared Object    
+# ........  .......  .................
+#
+    97.29%  naive    naive            
+     1.36%  naive    libc-2.12.so     
+     1.22%  naive    [kernel.kallsyms]
+     0.14%  naive    ld-2.12.so       
+
+
+# Samples: 17  of event 'faults'
+# Event count (approx.): 1245
+#
+# Overhead  Command  Shared Object    
+# ........  .......  .................
+#
+    65.62%  naive    naive            
+    33.98%  naive    ld-2.12.so       
+     0.24%  naive    [kernel.kallsyms]
+     0.16%  naive    libc-2.12.so  
