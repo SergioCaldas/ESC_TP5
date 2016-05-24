@@ -1,0 +1,147 @@
+[kernel.kallsyms] with build id 09b53ce5dfe09c7b1ad9473e1356d7d922512e27 not found, continui
+Failed to open /home/a57779/CPD/ESC/ESC_TP5/Tutorial3/src/interchange_large, continuing with
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# Samples: 170K of event 'cpu-cycles'
+# Event count (approx.): 17004500000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                       
+# ........  ............  ...............  .................  .............................
+#
+    31.23%         53108  interchange_lar  interchange_large  [.] 0x0000000000000846       
+    29.32%         49853  interchange_lar  interchange_large  [.] 0x0000000000000830       
+    23.52%         39997  interchange_lar  interchange_large  [.] 0x000000000000084f       
+    12.67%         21538  interchange_lar  interchange_large  [.] 0x0000000000000839       
+     2.20%          3736  interchange_lar  interchange_large  [.] 0x000000000000083d       
+
+
+# Samples: 399K of event 'instructions'
+# Event count (approx.): 39952000000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                       
+# ........  ............  ...............  .................  .............................
+#
+    47.97%        191641  interchange_lar  interchange_large  [.] 0x0000000000000830       
+    24.82%         99166  interchange_lar  interchange_large  [.] 0x000000000000084f       
+    23.35%         93275  interchange_lar  interchange_large  [.] 0x0000000000000846       
+     1.73%          6922  interchange_lar  interchange_large  [.] 0x000000000000083d       
+     1.28%          5095  interchange_lar  interchange_large  [.] 0x0000000000000839       
+     0.14%           567  interchange_lar  libc-2.12.so       [.] __random                 
+
+
+# Samples: 261  of event 'cache-references'
+# Event count (approx.): 26100000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                
+# ........  ............  ...............  .................  ......................
+#
+    44.44%           116  interchange_lar  interchange_large  [.] 0x000000000000083d
+    18.01%            47  interchange_lar  interchange_large  [.] 0x0000000000000846
+    13.03%            34  interchange_lar  interchange_large  [.] 0x0000000000000830
+     7.66%            20  interchange_lar  interchange_large  [.] 0x0000000000000839
+     6.51%            17  interchange_lar  interchange_large  [.] 0x000000000000084f
+     2.30%             6  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8127d387
+     0.77%             2  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81054171
+     0.77%             2  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff810585f8
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8100af00
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8100ba88
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81057fc4
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81058096
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff810585c5
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81073f93
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8107e856
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8109538c
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81095983
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81096781
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81096915
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81096be8
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff810a1faa
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff810e03c1
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff810e4ad3
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81286ae0
+     0.38%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff814fea42
+
+
+# Samples: 221  of event 'cache-misses'
+# Event count (approx.): 22100000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                
+# ........  ............  ...............  .................  ......................
+#
+    53.39%           118  interchange_lar  interchange_large  [.] 0x000000000000083d
+    18.55%            41  interchange_lar  interchange_large  [.] 0x0000000000000830
+    12.22%            27  interchange_lar  interchange_large  [.] 0x0000000000000846
+     9.05%            20  interchange_lar  interchange_large  [.] 0x0000000000000839
+     3.17%             7  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8127d387
+     3.17%             7  interchange_lar  interchange_large  [.] 0x000000000000084f
+     0.45%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81126b85
+
+
+# Samples: 258  of event 'LLC-loads'
+# Event count (approx.): 25800000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                
+# ........  ............  ...............  .................  ......................
+#
+    46.90%           121  interchange_lar  interchange_large  [.] 0x000000000000083d
+    20.54%            53  interchange_lar  interchange_large  [.] 0x0000000000000846
+    11.63%            30  interchange_lar  interchange_large  [.] 0x0000000000000830
+     9.30%            24  interchange_lar  interchange_large  [.] 0x000000000000084f
+     7.75%            20  interchange_lar  interchange_large  [.] 0x0000000000000839
+     0.78%             2  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8109538c
+     0.39%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8105483c
+     0.39%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff810580d3
+     0.39%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81073e74
+     0.39%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff81074786
+     0.39%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8107e7a6
+     0.39%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8107e844
+     0.39%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff8109cf25
+     0.39%             1  interchange_lar  interchange_large  [.] 0x0000000000000824
+
+
+# Samples: 228  of event 'LLC-load-misses'
+# Event count (approx.): 22800000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                
+# ........  ............  ...............  .................  ......................
+#
+    53.07%           121  interchange_lar  interchange_large  [.] 0x000000000000083d
+    18.86%            43  interchange_lar  interchange_large  [.] 0x0000000000000846
+    16.67%            38  interchange_lar  interchange_large  [.] 0x0000000000000830
+     8.33%            19  interchange_lar  interchange_large  [.] 0x0000000000000839
+     3.07%             7  interchange_lar  interchange_large  [.] 0x000000000000084f
+
+
+# Samples: 1  of event 'dTLB-load-misses'
+# Event count (approx.): 100000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                
+# ........  ............  ...............  .................  ......................
+#
+   100.00%             1  interchange_lar  [kernel.kallsyms]  [k] 0xffffffff810585c5
+
+
+# Samples: 37K of event 'branches'
+# Event count (approx.): 3786900000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                
+# ........  ............  ...............  .................  ......................
+#
+    68.14%         25803  interchange_lar  interchange_large  [.] 0x000000000000084f
+    14.46%          5474  interchange_lar  interchange_large  [.] 0x0000000000000846
+    13.06%          4945  interchange_lar  interchange_large  [.] 0x0000000000000830
+     2.19%           828  interchange_lar  interchange_large  [.] 0x000000000000083d
+     1.76%           665  interchange_lar  interchange_large  [.] 0x0000000000000839
+     0.11%            41  interchange_lar  interchange_large  [.] 0x0000000000000824
+
+
+# Samples: 18  of event 'branch-misses'
+# Event count (approx.): 1800000
+#
+# Overhead       Samples  Command          Shared Object      Symbol                
+# ........  ............  ...............  .................  ......................
+#
+    66.67%            12  interchange_lar  interchange_large  [.] 0x000000000000083d
+    22.22%             4  interchange_lar  interchange_large  [.] 0x0000000000000846
+     5.56%             1  interchange_lar  interchange_large  [.] 0x0000000000000824
+     5.56%             1  interchange_lar  interchange_large  [.] 0x0000000000000839

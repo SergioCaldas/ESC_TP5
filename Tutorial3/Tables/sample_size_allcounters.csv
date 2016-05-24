@@ -1,10 +1,11 @@
 EVENT NAME,  NAIVE LARGE , INTERCHANGE LARGE
-cpu-cycles,1M,170K
-instructions,406K,399K
-cache-references,57K,261
-cache-misses,48K,221
-LLC-loads,57K,258
-LLC-load-misses,49K,228
-dTLB-load-miss,17,1
-branches,39K,37k
-branch-miss,22,18
+Elapsed Time,
+cpu-cycles,1M amostras,170K amostras
+instructions,406K amostras,399K amostras
+cache-references,57K amostras,261 amostras
+cache-misses,48K amostras,221 amostras
+LLC-loads,57K amostras,258 amostras
+LLC-load-misses,49K amostras,228 amostras
+dTLB-load-miss,17 amostras,1 amostras
+branches,39K amostras,37k amostras
+branch-miss,22 amostras,18 amostras

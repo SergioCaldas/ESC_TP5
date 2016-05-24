@@ -1,0 +1,18 @@
+EVENT NAME,  NAIVE LARGE , INTERCHANGE LARGE
+IPC, 0.3474, 2.3495
+Cache miss ratio, 
+Cache miss rate PTI	
+LLC load miss ratio	
+LLC load miss rate PTI	
+dTLB load miss rate PTI	
+Branch mispredict ratio	
+Branch mispred rate PTI	
+
+
+Instructions per cycle	instructions / cycles
+L1 cache miss ratio	 L1-dcache-load-misses / L1-dcache-loads
+L1 cache miss rate PTI	L1-dcache-load-misses / (instructions / 1000)
+Data TLB miss ratio	dTLB-load-misses / cache-references
+Data TLB miss rate PTI	dTLB-load-misses / (instructions / 1000)
+Branch mispredict ratio	branch-misses / branch-instructions
+Branch mispredict rate PTI	branch-misses / (instructions / 1000)
