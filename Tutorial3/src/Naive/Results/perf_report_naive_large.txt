@@ -1,0 +1,95 @@
+[kernel.kallsyms] with build id 09b53ce5dfe09c7b1ad9473e1356d7d922512e27 not found, continui
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# Samples: 1M of event 'cpu-cycles'
+# Event count (approx.): 117011200000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                         
+# ........  ............  ...........  .................  ...............................
+#
+    99.38%       1162876  naive_large  naive_large        [.] multiply_matrices          
+     0.17%          1986  naive_large  [kernel.kallsyms]  [k] 0xffffffff81096e3e         
+
+
+# Samples: 406K of event 'instructions'
+# Event count (approx.): 40648400000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                      
+# ........  ............  ...........  .................  ............................
+#
+    99.12%        402902  naive_large  naive_large        [.] multiply_matrices       
+     0.24%           986  naive_large  naive_large        [.] initialize_matrices     
+     0.12%           486  naive_large  libc-2.12.so       [.] __random                
+
+
+# Samples: 57K of event 'cache-references'
+# Event count (approx.): 5709100000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                 
+# ........  ............  ...........  .................  .......................
+#
+    99.87%         57017  naive_large  naive_large        [.] multiply_matrices  
+
+
+# Samples: 48K of event 'cache-misses'
+# Event count (approx.): 4898800000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                
+# ........  ............  ...........  .................  ......................
+#
+    99.97%         48971  naive_large  naive_large        [.] multiply_matrices 
+
+
+# Samples: 57K of event 'LLC-loads'
+# Event count (approx.): 5781400000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                
+# ........  ............  ...........  .................  ......................
+#
+    99.95%         57786  naive_large  naive_large        [.] multiply_matrices 
+
+
+# Samples: 49K of event 'LLC-load-misses'
+# Event count (approx.): 4930900000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                
+# ........  ............  ...........  .................  ......................
+#
+    99.97%         49296  naive_large  naive_large        [.] multiply_matrices 
+
+
+# Samples: 17  of event 'dTLB-load-misses'
+# Event count (approx.): 1700000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                
+# ........  ............  ...........  .................  ......................
+#
+    58.82%            10  naive_large  naive_large        [.] multiply_matrices 
+     5.88%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff8104f488
+     5.88%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff81057f50
+     5.88%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff81058096
+     5.88%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff81058120
+     5.88%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff81058143
+     5.88%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff811648f3
+     5.88%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff8146f8d8
+
+
+# Samples: 39K of event 'branches'
+# Event count (approx.): 3914700000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                  
+# ........  ............  ...........  .................  ........................
+#
+    99.24%         38848  naive_large  naive_large        [.] multiply_matrices   
+
+
+# Samples: 22  of event 'branch-misses'
+# Event count (approx.): 2200000
+#
+# Overhead       Samples  Command      Shared Object      Symbol                
+# ........  ............  ...........  .................  ......................
+#
+    86.36%            19  naive_large  naive_large        [.] multiply_matrices 
+     4.55%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff8100c255
+     4.55%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff810a1edd
+     4.55%             1  naive_large  [kernel.kallsyms]  [k] 0xffffffff8143fb21
