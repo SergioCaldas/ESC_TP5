@@ -1,10 +1,10 @@
 EVENT NAME,  NAIVE LARGE , INTERCHANGE LARGE
-cpu-cycles,
-instructions,
-cache-references,
-cache-misses,
-LLC-loads,
-LLC-load-misses,
-dTLB-load-miss
-branches,
-branch-miss
+cpu-cycles,1M,170K
+instructions,406K,399K
+cache-references,57K,261
+cache-misses,48K,221
+LLC-loads,57K,258
+LLC-load-misses,49K,228
+dTLB-load-miss,17,1
+branches,39K,37k
+branch-miss,22,18
