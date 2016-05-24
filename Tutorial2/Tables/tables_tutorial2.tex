@@ -1,0 +1,67 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\title{Brief Article}
+\author{The Author}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+
+\begin{table}[]
+\centering
+\label{my-label}
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Event Name}} & \textbf{Naive} & \textbf{Interchanged} \\ \hline
+cpu-cycles                                & 547997864      & 385408603             \\ \hline
+instructions                              & 931779569      & 873670026             \\ \hline
+cache-references                          & 8320994        & 379814                \\ \hline
+cache-misses                              & 27905          & 18545                 \\ \hline
+branch-instructions                       & 133776058      & 126115011             \\ \hline
+branch-misses                             & 277424         & 256916                \\ \hline
+bus-cycles                                & 0              & 0                     \\ \hline
+L1-dcache-loads                           & 240142105      & 243739176             \\ \hline
+L1-dcache-load-misses                     & 54162900       & 7343843               \\ \hline
+L1-dcache-stores                          & 9683369        & 125326167             \\ \hline
+L1-dcache-store-misses                    & 290076         & 98819                 \\ \hline
+LLC-loads                                 & 7231132        & 274505                \\ \hline
+LLC-load-misses                           & 3056           & 4625                  \\ \hline
+LLC-stores                                & 259152         & 203242                \\ \hline
+LLC-store-misses                          & 27378          & 14222                 \\ \hline
+dTLB-load-misses                          & 5896           & 9885                  \\ \hline
+dTLB-store-misses                         & 722            & 445                   \\ \hline
+iTLB-load-misses                          & 633            & 0                     \\ \hline
+branch-loads                              & 131571446      & 123282031             \\ \hline
+branch-load-misses                        & 6534783        & 5270872               \\ \hline
+\end{tabular}
+\caption{Todos os contadores Naive}
+\end{table}
+
+\begin{table}[]
+\centering
+\label{my-label}
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{EVENT NAME}} & \textbf{NAIVE} & \textbf{INTERCHANGE} \\ \hline
+Elapsed time (seconds)                    & 0.189498719    & 0.144975696          \\ \hline
+Instructions per cycle                    & 1.70 IPC       & 2.27 IPC             \\ \hline
+L1 cache miss ratio                       & 0.2255         & 0.030                \\ \hline
+L1 cache miss rate PTI                    & 58.13          & 7.88                 \\ \hline
+Data TLB miss ratio                       & 0.00071        & 0.026                \\ \hline
+Data TLB miss rate PTI                    & 0.0063         & 0.011                \\ \hline
+Branch mispredict ratio                   & 0.0021         & 0.00204              \\ \hline
+Branch mispredict rate PTI                & 0.29774        & 0.2940               \\ \hline
+\end{tabular}
+\caption{Todos os contadores Interchanged}
+\end{table}
+
+\end{document}  
