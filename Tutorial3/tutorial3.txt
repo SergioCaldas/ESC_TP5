@@ -1,1 +1,0 @@
-perf record -c 100000 -e cpu-cycles,instructions,cache-references,cache-misses,LLC-loads,LLC-load-misses,dTLB-load-misses,branches,branch-misses ./large_interchange
