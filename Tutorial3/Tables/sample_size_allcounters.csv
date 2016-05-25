@@ -1,5 +1,5 @@
 EVENT NAME,  NAIVE LARGE , INTERCHANGE LARGE
-Elapsed Time,
+Elapsed Time,103.3436,10.5054
 cpu-cycles,1M amostras,170K amostras
 instructions,406K amostras,399K amostras
 cache-references,57K amostras,261 amostras

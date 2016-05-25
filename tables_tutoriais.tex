@@ -18,7 +18,7 @@
 
 \begin{table}[h!]
 \centering
-\label{my-label}
+\label{table:contadores}
 \begin{tabular}{|l|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{Event Name}} & \textbf{Naive} & \textbf{Interchanged} \\ \hline
@@ -48,7 +48,7 @@ branch-load-misses                        & 6534783        & 5270872            
 
 \begin{table}[h!]
 \centering
-\label{my-label}
+\label{table:ratios}
 \begin{tabular}{|l|c|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{RATIO or RATE}} & \textbf{NAIVE} & \textbf{INTERCHANGE} \\ \hline
@@ -68,12 +68,86 @@ Branch mispredict rate PTI                & 0.29774        & 0.2940             
 
 \subsection{Modo Contagem: large\_naive vs. large\_interchange}
 
+\begin{table}[h!]
+\centering
+\label{table:modo_contagem_contadores}
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{EVENT NAME}} & \textbf{NAIVE LARGE} & \textbf{INTERCHANGE LARGE} \\ \hline
+Elapsed Time                              & 103.3436             & 10.5054                    \\ \hline
+cpu-cycles                                & 117011200000         & 17004500000                \\ \hline
+instructions                              & 40648400000          & 39952000000                \\ \hline
+cache-references                          & 5709100000           & 26100000                   \\ \hline
+cache-misses                              & 4898800000           & 22100000                   \\ \hline
+LLC-loads                                 & 5781400000           & 25800000                   \\ \hline
+LLC-load-misses                           & 4930900000           & 22800000                   \\ \hline
+dTLB-load-misses                          & 1700000              & 100000                     \\ \hline
+branches                                  & 3914700000           & 3786900000                 \\ \hline
+branch-misses                             & 2200000              & 1800000                    \\ \hline
+\end{tabular}
+\caption{Modo Contagem: Interchange Large vs Naive Large}
+\end{table}
+
 \subsection{Modo Contagem: rates and ratios}
 
-\subsection{Modo Amostras: large\_naive vs. large\_interchange}
+\begin{table}[h!]
+\centering
+\label{table:modo_contagem_rates}
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{EVENT NAME}} & \textbf{NAIVE LARGE} & \textbf{INTERCHANGE LARGE} \\ \hline
+IPC                                       & 0.3474               & 2.3495                     \\ \hline
+Cache miss ratio                          & 0.85                 & 0.86                       \\ \hline
+Cache miss rate PTI                       & 120.516              & 0.55                       \\ \hline
+LLC load miss ratio                       & 0.85                 & 0.88                       \\ \hline
+LLC load miss rate PTI                    & 121.31               & 0.57                       \\ \hline
+dTLB load miss rate PTI                   & 0.042                & 0.0025                     \\ \hline
+Branch mispredict ratio                   & 0.00056              & 0.00048                    \\ \hline
+Branch mispred rate PTI                   & 0.054                & 0.045                      \\ \hline
+\end{tabular}
+\caption{Modo Contagem: Rates and Ratios (Naive Large vs Interchange Large)}
+\end{table}
 
-\subsection{Modo Amostras: rates and ratios}
+\subsection{Modo Amostras: Naive Large vs. Interchange Large}
 
+\begin{table}[h!]
+\centering
+\label{table:modo_amostras}
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{EVENT NAME}} & \textbf{NAIVE LARGE} & \textbf{INTERCHANGE LARGE} \\ \hline
+Elapsed Time                              & 103.3436             & 10.5054                    \\ \hline
+cpu-cycles                                & 1M amostras          & 170K amostras              \\ \hline
+instructions                              & 406K amostras        & 399K amostras              \\ \hline
+cache-references                          & 57K amostras         & 261 amostras               \\ \hline
+cache-misses                              & 48K amostras         & 221 amostras               \\ \hline
+LLC-loads                                 & 57K amostras         & 258 amostras               \\ \hline
+LLC-load-misses                           & 49K amostras         & 228 amostras               \\ \hline
+dTLB-load-miss                            & 17 amostras          & 1 amostras                 \\ \hline
+branches                                  & 39K amostras         & 37k amostras               \\ \hline
+branch-miss                               & 22 amostras          & 18 amostras                \\ \hline
+\end{tabular}
+\caption{Modo Amostras: Naive Large vs Interchange Large}
+\end{table}
 
+\subsection{Modo Amostras: Rates and Ratios}
+
+\begin{table}[h!]
+\centering
+\label{table:modo_amostras_ratios}
+\begin{tabular}{|l|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{EVENT NAME}} & \textbf{NAIVE LARGE} & \textbf{INTERCHANGE LARGE} \\ \hline
+IPC                                       & 0.406                & 2.35                       \\ \hline
+Cache miss ratio                          & 0.84                 & 0.86                       \\ \hline
+Cache miss rate PTI                       & 118.23               & 0.55                       \\ \hline
+LLC load miss ratio                       & 0.86                 & 0.88                       \\ \hline
+LLC load miss rate PTI                    & 120.68               & 0.57                       \\ \hline
+dTLB load miss rate PTI                   & 0.042                & 0.0025                     \\ \hline
+Branch mispredict ratio                   & 0.00056              & 0.00049                    \\ \hline
+Branch mispred rate PTI                   & 0.054                & 0.045                      \\ \hline
+\end{tabular}
+\caption{Modo Amostras: Rates e Ratios (Naive Large vs Interchange Large}
+\end{table}
 
 \end{document}  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 MAY 2016 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 MAY 2016 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -94,11 +94,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(./tables_tutoriais.aux
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-)
+(./tables_tutoriais.aux)
 \openout1 = `tables_tutoriais.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -216,27 +212,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./tables_tutoriais.aux)
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- ) 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2] [3] (./tables_tutoriais.aux) ) 
 Here is how much of TeX's memory you used:
- 2256 strings out of 493089
- 31820 string characters out of 6134842
- 99755 words of memory out of 5000000
- 5726 multiletter control sequences out of 15000+600000
+ 2261 strings out of 493089
+ 31950 string characters out of 6134842
+ 102764 words of memory out of 5000000
+ 5731 multiletter control sequences out of 15000+600000
  9806 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,26p,248b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on tables_tutoriais.pdf (2 pages, 46381 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb>
+Output written on tables_tutoriais.pdf (3 pages, 51989 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 26 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
