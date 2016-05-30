@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+
+\bibitem{flame}
+Site de flame graphs.
+\newblock \url{http://www.brendangregg.com/flamegraphs.html}.
+
+\bibitem{tutorial}
+Site do tutorial.
+\newblock \url{http://sandsoftwaresound.net/perf/perf-tutorial-hot-spots/}.
+
+\end{thebibliography}

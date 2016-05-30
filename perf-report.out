@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Introdu\347\343o}{}% 1
+\BOOKMARK [1][-]{section.2}{Perf}{}% 2
+\BOOKMARK [1][-]{section.3}{Caracteriza\347\343o do Ambiente de Testes}{}% 3
+\BOOKMARK [1][-]{section.4}{Parte 1 - Procura dos pontos quentes de uma aplica\347\343o em execu\347\343o}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Tempo de Execu\347\343o e Contagem de Eventos}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Procura de Hotsposts}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Profiling com o Perf}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Parte 2 - Contagem de eventos de Hardware}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{C\363digo Fonte do Programa}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{An\341lise do Desempenho}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.3}{R\341cio e Taxas}{section.5}% 11
+\BOOKMARK [1][-]{section.6}{Parte 3 - Perfis de Eventos de Hardware}{}% 12
+\BOOKMARK [2][-]{subsection.6.1}{Modo Contagem: naive\137large vs interchange\137large}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.2}{Visualiza\347\343o dos Perfis Baseados em Eventos}{section.6}% 14
+\BOOKMARK [1][-]{section.7}{Modo Amostragem: naive\137large vs interchange\137large}{}% 15
+\BOOKMARK [1][-]{section.8}{Flame Graphs}{}% 16
+\BOOKMARK [2][-]{subsection.8.1}{Gera\347\343o de Flame Graphs}{section.8}% 17
+\BOOKMARK [2][-]{subsection.8.2}{Flame Graph das 4 Aplica\347\365es Usadas neste Trabalho}{section.8}% 18
+\BOOKMARK [1][-]{section.9}{Conclus\343o}{}% 19
+\BOOKMARK [1][-]{section*.1}{Refer\352ncias}{}% 20
