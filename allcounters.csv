@@ -1,0 +1,21 @@
+Event Name,Naive,Interchanged
+cpu-cycles,547997864,385408603
+instructions,931779569,873670026
+cache-references,8320994,   379814
+cache-misses,27905     ,    18545
+branch-instructions,133776058,126115011
+branch-misses,277424      ,   256916
+bus-cycles,0            ,        0
+L1-dcache-loads,240142105       ,243739176
+L1-dcache-load-misses,54162900 ,  7343843
+L1-dcache-stores,9683369      ,125326167
+L1-dcache-store-misses,    290076,    98819
+LLC-loads             ,   7231132,   274505
+LLC-load-misses       ,      3056,     4625
+LLC-stores            ,    259152,   203242
+LLC-store-misses      ,     27378,    14222
+dTLB-load-misses      ,      5896,     9885
+dTLB-store-misses     ,       722,      445
+iTLB-load-misses      ,       633,        0
+branch-loads          , 131571446,123282031
+branch-load-misses    ,   6534783,  5270872
